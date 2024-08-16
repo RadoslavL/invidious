@@ -21,7 +21,7 @@
     "Import and Export Data": "Importera och exportera data",
     "Import": "Importera",
     "Import Invidious data": "Importera Invidious JSON data",
-    "Import YouTube subscriptions": "Importera YouTube/OPML prenumerationer",
+    "Import YouTube subscriptions": "Importera YouTube CSV eller OPML prenumerationer",
     "Import FreeTube subscriptions (.db)": "Importera FreeTube-prenumerationer (.db)",
     "Import NewPipe subscriptions (.json)": "Importera NewPipe-prenumerationer (.json)",
     "Import NewPipe data (.zip)": "Importera NewPipe-data (.zip)",
@@ -488,5 +488,13 @@
     "crash_page_you_found_a_bug": "Det verkar som att du har hittat en bugg i Invidious!",
     "generic_views_count": "{{count}} visning",
     "generic_views_count_plural": "{{count}} visningar",
-    "toggle_theme": "Växla tema"
+    "toggle_theme": "Växla tema",
+    "Add to playlist": "Lägg till i spellista",
+    "Add to playlist: ": "Lägg till i spellista: ",
+    "Answer": "Svara",
+    "Search for videos": "Sök efter videor",
+    "The Popular feed has been disabled by the administrator.": "Det populära flödet har inaktiverats av administratören.",
+    "carousel_slide": "Bildspel {{current}} av {{total}}",
+    "carousel_skip": "Hoppa över karusellen",
+    "carousel_go_to": "Gå till bildspel `x`"
 }
