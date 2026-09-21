@@ -662,7 +662,7 @@ private module Parsers
         metadata = item_contents.dig("metadata", "lockupMetadataViewModel")
         title = metadata.dig("title", "content").as_s
         # Contains the views of the video and the published time of the video.
-		  metadata_rows = metadata.dig?("metadata", "contentMetadataViewModel", "metadataRows").try &.as_a || Array(JSON::Any).new
+        metadata_rows = metadata.dig?("metadata", "contentMetadataViewModel", "metadataRows").try &.as_a || Array(JSON::Any).new
 
         view_count_text : String? = nil
         published : Time = Time.local
